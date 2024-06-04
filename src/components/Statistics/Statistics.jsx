@@ -22,7 +22,7 @@ export const Statistics = ({ title, stats }) => {
               key={id}
               style={{ backgroundColor: getRandomColor() }}>
               <span className={styles.label}>{label}</span>
-              <span className={styles.percentage}>{percentage}</span>
+              <span className={styles.percentage}>{percentage}%</span>
             </li>
           );
         })}
